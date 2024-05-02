@@ -4,7 +4,8 @@ volatile修饰的变量总会返回最新被写入的值，共享的变量，解
 * */
 public class VolatileDemo {
 
-    // 一个常见的例子,如果不设置成volatile，可能出现其他线程改了flag为true，这里还是没有发现，仍然在无限循环
+    // 一个常见的例子,如果不设置成volatile，可能出现其他线程改了flag为true，这里还是没有发现，仍然在无限循环1
+
     volatile boolean flag;
 
     {
